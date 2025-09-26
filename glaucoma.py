@@ -3,9 +3,6 @@ import numpy as np
 import pandas as pd 
 
 
-import plotly.express as px
-import plotly.graph_objects as go 
-
 # %%
 import warnings
 warnings.filterwarnings('ignore')
@@ -197,6 +194,7 @@ import pickle
 with open('logreg_model.pkl', 'wb') as file:
     pickle.dump(logreg, file)
 print("Model saved as logreg_model.pkl")
+
 
 
 
